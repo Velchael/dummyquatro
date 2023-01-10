@@ -14,7 +14,7 @@ import Apresentação from './componentes/Apresentação';
 import { NoMatch } from './componentes/NoMatch';
 function Apprutas() {
   return(
-    <BrowserRouter basename="/react-dummyquatro">
+    <BrowserRouter basename="/dummyquatro">
       <div>
            <header className="App-header">
             <nav>
@@ -31,7 +31,7 @@ function Apprutas() {
            </header>
       </div> 
       <Routes>
-        <Route exact path="/componentes/Apresentação/react-dummydos"element={<Apresentação />}/>
+        <Route exact path="/componentes/Apresentação/dummyquatro"element={<Apresentação />}/>
         <Route path="/App"element={<App />}/>
         <Route path="/componentes/Cursos"element={<Cursos />}>
             <Route path="modulouno" element={<Modulouno />} />
