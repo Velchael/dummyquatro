@@ -77,7 +77,7 @@ body {
 
 .App-header {
   background-color: #f4a4f0;
-  min-height: 13vh;
+  min-height: 10vh;
   display: flex;
   margin: 10px 1px 10px 10px;
   justify-content:space-between ;

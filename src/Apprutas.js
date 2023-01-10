@@ -12,29 +12,24 @@ import Moduloquatro from './componentes/Moduloquatro';
 import App from './App';
 import Apresentação from './componentes/Apresentação';
 import { NoMatch } from './componentes/NoMatch';
-
-
 function Apprutas() {
   return(
     <BrowserRouter basename="/react-dummyquatro">
       <div>
-        
            <header className="App-header">
             <nav>
-            <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link>
-            
-            <p className="App-header">Instituto NU </p>
-            
+            <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link>   
+            <p className="App-headerdos"> Instituto NU 
+            <Link to= "/" style = { {  textDecoration : 'none' , color : "black" } } > “ Porque você vale muito git” </Link>
+            </p>   
              <Link to ="/componentes/Apresentação"></Link>
              <Link to ="/App"className="atres" style={{ textDecoration: 'none' }}>Inscrição </Link>
              <Link to="/componentes/Cursos"className="atres"style={{ textDecoration: 'none' }}> Cursos </Link>
              <Link to="/componentes/SobreNos"className="atres"style={{ textDecoration: 'none' }}> Sobre nós </Link>
 			       <Link to="/componentes/Faleconnosco"className="atres"style={{ textDecoration: 'none' }}> Fale Conosco </Link>
-		        </nav>
-            
+		        </nav>   
            </header>
-      </div>
-    
+      </div> 
       <Routes>
         <Route exact path="/componentes/Apresentação/react-dummydos"element={<Apresentação />}/>
         <Route path="/App"element={<App />}/>
