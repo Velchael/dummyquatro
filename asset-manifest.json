@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-dummyquatro/static/css/main.c01f073e.css",
-    "main.js": "/react-dummyquatro/static/js/main.3775ac46.js",
+    "main.css": "/react-dummyquatro/static/css/main.10db62f2.css",
+    "main.js": "/react-dummyquatro/static/js/main.d919ad80.js",
     "static/js/787.3200d7c8.chunk.js": "/react-dummyquatro/static/js/787.3200d7c8.chunk.js",
     "static/media/pexels-lukas-574071tres.jpg": "/react-dummyquatro/static/media/pexels-lukas-574071tres.05eca85d0fec54d1b92c.jpg",
     "static/media/logo.svg": "/react-dummyquatro/static/media/logo.7589d749e67b442f92ff3d5879213512.svg",
     "index.html": "/react-dummyquatro/index.html",
-    "main.c01f073e.css.map": "/react-dummyquatro/static/css/main.c01f073e.css.map",
-    "main.3775ac46.js.map": "/react-dummyquatro/static/js/main.3775ac46.js.map",
+    "main.10db62f2.css.map": "/react-dummyquatro/static/css/main.10db62f2.css.map",
+    "main.d919ad80.js.map": "/react-dummyquatro/static/js/main.d919ad80.js.map",
     "787.3200d7c8.chunk.js.map": "/react-dummyquatro/static/js/787.3200d7c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01f073e.css",
-    "static/js/main.3775ac46.js"
+    "static/css/main.10db62f2.css",
+    "static/js/main.d919ad80.js"
   ]
 }
