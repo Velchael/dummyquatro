@@ -20,7 +20,7 @@ function Apprutas() {
             <nav>
             <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link>   
             <p className="App-headerdos"> Instituto NU 
-            <Link to= "/" style = { {  textDecoration : 'none' , color : "black" } } > “ Porque você vale muito git” </Link>
+            <Link to= "/" style = { {  textDecoration : 'none' , color : "black" } } > “ Porque você vale muito...” </Link>
             </p>   
              <Link to ="/componentes/Apresentação"></Link>
              <Link to ="/App"className="atres" style={{ textDecoration: 'none' }}>Inscrição </Link>
