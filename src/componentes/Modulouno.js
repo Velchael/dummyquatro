@@ -1,4 +1,42 @@
-import React from "react";
+import React from 'react';
+import { useNavigate, Link, Outlet} from 'react-router-dom';
+const Modulouno = () => {
+    const navigate = useNavigate()
+    const goOqueaprender = () => {
+        navigate("/componentes/Cursos/Modulouno/Oqueaprender")
+    }
+    const goOquevoufazer = () => {
+        navigate("/componentes/Cursos/Modulouno/Oquevoufazer")
+    }
+    const goHavilidadestecnicas = () => {
+        navigate("/componentes/Cursos/Modulouno/Havilidadestecnicas")
+    }
+    return (
+        <div >
+            <hr/>
+            <div className="App-headerdos">
+            <h3>Modulo um, Fundamentos do Desenvolvimento Web</h3>  
+            <nav className="oldos_modulo">
+            <button onMouseOver={goOqueaprender}>
+             <Link to="/componentes/Cursos/Modulouno/Oqueaprender"style={{ textDecoration: 'none' }}>O que vou aprender </Link>
+            </button> 
+            <button onMouseOver={goOquevoufazer}>
+             <Link to="/componentes/Cursos/Modulouno/oquevoufazer"style={{ textDecoration: 'none' }}>O que vou fazer </Link>
+            </button>
+            <button onMouseOver={goHavilidadestecnicas}>
+             <Link to="/componentes/Cursos/Modulouno/Havilidadestecnicas"style={{ textDecoration: 'none' }}>Havilidades tecnicas </Link>
+            </button>
+             </nav>
+            </div>
+            <hr/>
+            <Outlet />
+        </div>
+    )
+}
+
+export default Modulouno;
+
+/*import React from "react";
 import { Link } from 'react-router-dom';
 import '../Apprutas.css';
 export default function Modulouno(){
@@ -29,4 +67,4 @@ export default function Modulouno(){
     </form>
     </div> 
     ) 
-}
+}*/

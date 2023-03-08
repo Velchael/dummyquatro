@@ -11,11 +11,6 @@
       "id": 15
     },
     {
-      "title": "Carlos",
-      "author": "Python",
-      "id": 16
-    },
-    {
       "title": "João ",
       "author": "Back-end",
       "id": 17
@@ -24,11 +19,6 @@
       "title": "Getsemani",
       "author": "Mendez",
       "id": 19
-    },
-    {
-      "title": "vnsgn",
-      "author": "gfhadfgh",
-      "id": 20
     }
   ]
 }
