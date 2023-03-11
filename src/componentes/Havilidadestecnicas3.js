@@ -7,9 +7,7 @@ export default function Havilidadestecnicas3(){
     <div>
     <form className="presenta_css">
            <div>
-           <h1>Módulo 3</h1>
-            <h2>Desenvolvimento Back-end</h2>
-            <h5>Habilidades técnicas ensinadas:</h5>
+            <h2>Habilidades técnicas ensinadas:</h2>
             <p>
             •Banco de Dados
             •SQL

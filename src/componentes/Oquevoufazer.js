@@ -7,9 +7,7 @@ export default function Oquevoufazer(){
     <div>
     <form className="presenta_css">
            <div>
-            <h1>Módulo 1</h1>
-            <h2>Fundamentos do Desenvolvimento Web</h2>
-            <h3> O que você será capaz de fazer no final do módulo?</h3>
+            <h2> O que você será capaz de fazer no final do módulo?</h2>
             <p>Você será capaz de entender como uma pessoa programadora trabalha, desenvolvendo o raciocínio aplicado à formulação e resolução de problemas computacionais. 
                 Ainda vai aprender a criar páginas na web, escrever algoritmos básicos, criar e testar códigos que possibilitam o funcionamento correto de programas e aplicações web.</p>
         <Link to= "/" style = { {  textDecoration : 'none' , color : "red" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
@@ -18,3 +16,5 @@ export default function Oquevoufazer(){
     </div> 
     ) 
 }
+/*<h1>Módulo 1</h1>
+<h2>Fundamentos do Desenvolvimento Web</h2>*/

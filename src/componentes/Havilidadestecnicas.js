@@ -7,9 +7,7 @@ export default function Havilidadestecnicas(){
     <div>
     <form className="presenta_css">
            <div>
-            <h1>Módulo 1</h1>
-            <h2>Fundamentos do Desenvolvimento Web</h2>
-            <h3> Habilidades técnicas ensinadas:</h3>
+            <h2> Habilidades técnicas ensinadas:</h2>
             <p>
             •Internet 
             •Unix & Shell
@@ -25,3 +23,5 @@ export default function Havilidadestecnicas(){
     </div> 
     ) 
 }
+/*  <h1>Módulo 1</h1>
+            <h2>Fundamentos do Desenvolvimento Web</h2>*/

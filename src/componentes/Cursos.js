@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate, Link, Outlet} from 'react-router-dom';
+import { useNavigate, NavLink, Outlet} from 'react-router-dom';
 const Cursos = () => {
 
     const navigate = useNavigate()
@@ -23,16 +23,20 @@ const Cursos = () => {
             <h3>Cursos Instituto NU</h3>  
             <nav className="oldos_modulo">
             <button onMouseOver={goModulouno}>
-             <Link to="/componentes/Cursos/Modulouno"style={{ textDecoration: 'none' }}>Modulo 1 </Link>
+             <NavLink to="/componentes/Cursos/Modulouno" style={({ isActive }) => 
+                      (isActive ? {color: 'red'} : {color: 'blue'})} >Modulo 1 </NavLink>
             </button> 
             <button onMouseOver={goModulodos}>
-             <Link to="/componentes/Cursos/Modulodos"style={{ textDecoration: 'none' }}>Modulo 2 </Link>
+             <NavLink to="/componentes/Cursos/Modulodos"style={({ isActive }) => 
+                      (isActive ? {color: 'red'} : {color: 'blue'})}>Modulo 2 </NavLink>
             </button>
             <button onMouseOver={goModulotres}>
-             <Link to="/componentes/Cursos/Modulotres"style={{ textDecoration: 'none' }}>Modulo 3 </Link>
+             <NavLink to="/componentes/Cursos/Modulotres"style={({ isActive }) => 
+                      (isActive ? {color: 'red'} : {color: 'blue'})}>Modulo 3 </NavLink>
             </button>
             <button onMouseOver={goModuloquatro}>
-             <Link to="/componentes/Cursos/Moduloquatro"style={{ textDecoration: 'none' }}>Modulo 4</Link>
+             <NavLink to="/componentes/Cursos/Moduloquatro"style={({ isActive }) => 
+                      (isActive ? {color: 'red'} : {color: 'blue'})}>Modulo 4</NavLink>
             </button>
              </nav>
             </div>
@@ -43,26 +47,3 @@ const Cursos = () => {
 }
 
 export default Cursos;
-
-/*import React from 'react';
-import { Link, Outlet} from 'react-router-dom';
-const Cursos = () => {
-    return (
-        <div >
-            <hr/>
-            <div className="App-headerdos">
-            <h3>Cursos Instituto NU</h3>  
-            <nav className="oldos_modulo">
-             <Link to="/componentes/Cursos/Modulouno"className="atres_modulo"style={{ textDecoration: 'none' }}>Modulo 1 </Link>
-             <Link to="/componentes/Cursos/Modulodos"className="atres_modulo"style={{ textDecoration: 'none' }}>Modulo 2 </Link>
-             <Link to="/componentes/Cursos/Modulotres"className="atres_modulo"style={{ textDecoration: 'none' }}>Modulo 3 </Link>
-             <Link to="/componentes/Cursos/Moduloquatro"className="atres_modulo"style={{ textDecoration: 'none' }}>Modulo 4</Link>
-             </nav>
-            </div>
-            <hr/>
-            <Outlet />
-        </div>
-    )
-}
-
-export default Cursos;*/
