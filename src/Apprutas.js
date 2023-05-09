@@ -2,7 +2,9 @@ import React from 'react';
 import { useNavigate, Route,Routes,NavLink, } from 'react-router-dom';
 import Cursos from './componentes/Cursos';
 import './Apprutas.css';
+/*Import './Appmenulateral.css';*/
 import logo from './logo.svg';
+import Appmenulateral from './Appmenulateral'
 import SobreNos from './componentes/SobreNos';
 import Faleconnosco from './componentes/Faleconnosco';
 import Oqueaprender from './componentes/Oqueaprender';
@@ -42,6 +44,7 @@ function Apprutas() {
   return(
     
       <div>
+             <Appmenulateral/>
            <header className="App-header">
             <nav>
             <NavLink to="/"><img src={logo} className="App-logo" alt="logo" /></NavLink>   
@@ -67,6 +70,7 @@ function Apprutas() {
             </button>
 		        </nav>   
            </header>
+        
       
       <Routes>
         <Route exact path="/componentes/Apresentação/dummyquatro"element={<Apresentação />}/>
